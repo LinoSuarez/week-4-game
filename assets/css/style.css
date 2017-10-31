@@ -1,0 +1,40 @@
+body {
+    color: rgb(32, 32, 32);
+    background-color: rgb(240, 240, 240);
+    padding: 0 20px;
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 75px;
+    text-align: center;
+   
+}
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 0;
+}
+#copyright {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+#output {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+    text-align: left;
+}
+.gemgroup {
+    text-align: center;
+}
+
+.gems {
+    height: 150px;
+    width: auto;
+}
+#tank {
+    position: absolute;
+    right:0;
+    bottom: -10;
+}

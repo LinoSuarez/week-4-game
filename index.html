@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>GEM GAME</title>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+    </head>
+    <body>
+        <h1>Crystals Collector</h1>
+        
+            <h3>Click on a gem witch has a random value from 1-12 and try to add up to the Computer Guess without 
+                going over. Then you losse and gems are randomly chossing other number.
+            </h3>
+        <div class="gemgroup">
+            <img class="gems" value="red" src="assets/img/red.png">
+            <img class="gems" value="green" src="assets/img/green.png">
+            <img class="gems" value="pink" src="assets/img/pink.png">
+            <img class="gems" value="blue" src="assets/img/blue.png">
+        </div>
+        <div id="output">
+            <div>Points: <span id="yourScore">0</span></div>
+            <div>Computer Guess: <span id="computerGuess">0</span></div>
+            <div>Wins: <span id="wins">0</span></div>
+            <div>Losses: <span id="loss">0</span></div>
+        </div>
+        <img id="tank" src="assets/img/tank.gif">
+        <div id="copyright">
+            by Lino Suarez, 2017 UCLA
+        </div>
+        <script src="assets/js/game.js"></script>
+    </body>
+</html>
